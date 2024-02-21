@@ -9,6 +9,7 @@ body, html {
 }
 
 .container {
+    position: relative;
     background-color: white;
     display: flex;
     align-items: ;
@@ -19,8 +20,18 @@ body, html {
     height: 518px;
     border-radius: 20px;
     border: 1px solid black;
+
 }
 
+.empty {
+    position: absolute;
+    background-color: black; 
+    width: 380px; 
+    height: 518px;
+    border-radius: 20px;
+    right: 1px;
+    bottom: 1px;
+  }
 
 .learn {
     background-color: hsl(47, 88%, 63%);

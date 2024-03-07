@@ -56,7 +56,14 @@ body {
     font-size: 14px;
 }
 
+.publication-date {
+    margin-bottom: 12px; 
+}
 
+.topic {
+    margin-bottom: 12px;
+}
+  
 .text {
     font-size: 18px;
     color: rgb(119, 124, 124);

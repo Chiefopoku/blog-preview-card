@@ -84,16 +84,16 @@ h1, h3 {
     
     .container,
     .empty {
-        width: 90%; /* Adjust width for smaller screens */
-        max-width: 320px; /* Set maximum width for better responsiveness */
-        height: auto; /* Allow height to adjust based on content */
-        padding: 16px; /* Adjust padding for smaller screens */
+        width: 90%;
+        max-width: 320px; 
+        height: auto; 
+        padding: 16px; 
     }
 
 }
 
 .section-header:hover {
-    background-color: rgb(244, 160, 4); /* Change to desired hover background color */
-    color: rgb(0, 0, 0); /* Change to desired hover text color */
-    cursor: pointer; /* Change cursor on hover */
+    background-color: rgb(233, 162, 21); 
+    color: rgb(0, 0, 0); 
+    cursor: pointer; 
 }

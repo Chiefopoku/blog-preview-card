@@ -1,6 +1,6 @@
 /* Global Styles */
 body {
-    font-family: 'Figtree'; /* Use the imported font family */
+    font-family: 'Figtree'; 
     max-width: 1440px;
     background-color: hsl(47, 88%, 63%);
     display: flex;
@@ -10,13 +10,12 @@ body {
     height: 100vh;
 }
 
-/* Illustration Styles */
+
 .illustration > img {
     border-radius: 10px;
     width: 100%;
 }
 
-/* Container Styles */
 .container {
     position: absolute;
     margin: -10px;
@@ -30,7 +29,7 @@ body {
     border: 1px solid black;
 }
 
-/* Section Header Styles */
+
 .section-header {
     background-color: hsl(47, 88%, 63%);
     display: flex;

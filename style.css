@@ -1,96 +1,83 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+/* Global Styles */
+body {
+    font-family: 'Figtree'; /* Use the imported font family */
+    max-width: 1440px;
     background-color: hsl(47, 88%, 63%);
-}
-
-.container {
-    position: relative;
-    background-color: white;
     display: flex;
-    align-items: ;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
-    width: 380px;
-    height: 518px;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Illustration Styles */
+.illustration > img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Container Styles */
+.container {
+    position: absolute;
+    margin: -10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 336px; 
+    height: 480px; 
+    padding: 24px;
     border-radius: 20px;
     border: 1px solid black;
-
 }
 
-.empty {
-    position: absolute;
-    background-color: black; 
-    width: 380px; 
-    height: 518px;
-    border-radius: 20px;
-    right: 1px;
-    bottom: 1px;
-  }
-
-.learn {
+/* Section Header Styles */
+.section-header {
     background-color: hsl(47, 88%, 63%);
     display: flex;
-    width: 85px;
+    width: 82px;
+    align-items: center;
+    margin-top: 24px;
     justify-content: center;
-    border-radius: 5px;
-    margin-top: 20px;
+    border-radius: 4px;
     font-weight: bolder;
 }
 
-.public, .text, .learn {
-    margin-left:20px; 
-    
+
+.empty {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 528px;
+    border-radius: 20px;
+    border: 1px solid black;
 }
 
-.public {
-    font-size: 9px;
-    letter-spacing: 0.65px;
-
+.public, .author-info {
+    font-size: 14px;
 }
 
-.topic {
-    height: 30px;
-    margin-left: 10px;
-    font-family: sans-serif;
-    font-size: 20px;
-}
 
-.text{
-    font-size: 17px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.text {
+    font-size: 18px;
     color: rgb(119, 124, 124);
-    margin-left: 20px;
-    margin-top: 20px;
 }
 
-.last {
+
+.author-info {
     display: flex;
-    margin-left: 20px;
-    font-size: 11px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    letter-spacing: 0.8px;
+    width: 129px;
+    height: 32px;
+    align-items: center;
+    padding-bottom: 24px;
 }
 
-.illustrator {
-    display: flex;
-    justify-content: center;
+.author-image {
+    padding-right: 12px;
 }
 
-.illustrator img {
-    border-radius: 10px;
-}
 
-h1{
-    font-size: small;
+h1, h3 {
+    font-size: 14px;
     font-weight: bolder;
-}
-
-h3 {
-    margin-left: 10px;
 }

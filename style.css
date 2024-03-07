@@ -80,3 +80,15 @@ h1, h3 {
     font-size: 14px;
     font-weight: bolder;
 }
+
+@media (max-width: 375px) {
+    
+    .container,
+    .empty {
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: 320px; /* Set maximum width for better responsiveness */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 16px; /* Adjust padding for smaller screens */
+    }
+
+}

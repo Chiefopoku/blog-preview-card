@@ -75,7 +75,6 @@ body {
     padding-right: 12px;
 }
 
-
 h1, h3 {
     font-size: 14px;
     font-weight: bolder;
@@ -91,4 +90,10 @@ h1, h3 {
         padding: 16px; /* Adjust padding for smaller screens */
     }
 
+}
+
+.section-header:hover {
+    background-color: rgb(244, 160, 4); /* Change to desired hover background color */
+    color: rgb(0, 0, 0); /* Change to desired hover text color */
+    cursor: pointer; /* Change cursor on hover */
 }

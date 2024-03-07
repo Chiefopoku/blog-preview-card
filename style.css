@@ -76,6 +76,7 @@ body {
     height: 32px;
     align-items: center;
     padding-bottom: 24px;
+    margin-bottom: 12px;
 }
 
 .author-image {
